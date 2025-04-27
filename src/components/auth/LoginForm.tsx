@@ -113,10 +113,6 @@ const LoginForm: React.FC = () => {
             {isLoading ? 'Logging in...' : 'Sign in'}
           </button>
         </div>
-        
-        <div className="text-center text-xs text-gray-500">
-          <p>Demo credentials: username "officer1", password "password"</p>
-        </div>
       </form>
     </div>
   );
